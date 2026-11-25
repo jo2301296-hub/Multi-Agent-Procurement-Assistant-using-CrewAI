@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+
+# Generated reports stay local, except two samples
+reports/*
+!reports/demo-report.html
+!reports/business-laptop-20261125-062606.html

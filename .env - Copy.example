@@ -1,0 +1,23 @@
+# Copy this file to .env and fill in your own keys. Never commit .env.
+
+# --- LLM used by every agent: "<provider>/<model>" --------------------------
+# Groq (https://console.groq.com/keys). Runs in compact mode: fewer products and
+# shorter texts, to fit the per-minute token limit. With higher limits: COMPACT=false
+LLM_MODEL=groq/openai/gpt-oss-120b
+GROQ_API_KEY=
+
+# Claude:
+# LLM_MODEL=anthropic/claude-opus-5-5
+# ANTHROPIC_API_KEY=
+
+# Any other provider CrewAI supports works too. For example:
+# LLM_MODEL=gemini/<model-name>
+# GEMINI_API_KEY=
+# LLM_MODEL=openai/<model-name>
+# OPENAI_API_KEY=
+
+# --- Tools ------------------------------------------------------------------
+# https://app.tavily.com
+TAVILY_API_KEY=
+# https://scrapegraphai.com/dashboard
+SGAI_API_KEY=
